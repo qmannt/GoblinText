@@ -10,6 +10,10 @@ if answer1 == "Y":
             choice2 = input("You arrive at a new crossroad with another bridge, pick 'bridge' or 'road'")
                 if choice2 == "road"
                     choice3 = input("As you walk the road, you spot a group of goblins, you shoot them from a distance with your bow. Choose to approach them and loot them or carry on. Choose 'loot' or 'pass'")
+                    if choice3 == "pass"
+                    choice4 = input("As you skirt around the dead goblins, you see one of them open an eye. Yikes that was close!. As you pass them, you see a forest in the distance. If you want to go in the forest type 'enter' if not, type 'pass'")
+                        if choice4 == "enter"
+                        
 
 else:
     print("Ok, then, bye bye!")
