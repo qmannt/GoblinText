@@ -13,7 +13,10 @@ if answer1 == "Y":
                     if choice3 == "pass"
                     choice4 = input("As you skirt around the dead goblins, you see one of them open an eye. Yikes that was close!. As you pass them, you see a forest in the distance. If you want to go in the forest type 'enter' if not, type 'pass'")
                         if choice4 == "enter"
-                        
+                        choice5 = input("You enter the forest slightly fearful, you see a huge mushroom growth on a tree, pick the mushrooms or keep going, type 'pick' for the shrooms and 'pass' for passing")
+                            if choice5 == "pick"
+                            print("You begin picking the mushrooms when you see a little gleam reflect off of the sunlight underneath. You spend a while digging until you uncover even more shine. It's buried treasure! You win! ")
 
 else:
     print("Ok, then, bye bye!")
+    
